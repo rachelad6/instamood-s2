@@ -1,0 +1,106 @@
+body {
+	background-image: url(http://hongki.at/images/wood-textures/woodfloor.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+.btn {
+	width: 200px;
+	height: 50px;
+	font-family: arial;
+	font-size: 20px;
+	color: red;
+	background-color: white;
+	border: 2px solid black;
+	margin-top: 30px;
+	font-weight: bolder;
+}
+
+.btn:hover {
+	color: black;
+}
+
+.stats {
+	color: white;
+	font-family: arial;
+	/*border: 5px solid #326BFF;*/
+	font-size: 25px;
+	background-image: url(http://images.designtrends.com/wp-content/uploads/2015/12/22095633/Chalkboard-Texture.jpg);
+	background-size: cover;
+	height: 300px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 45px;
+	padding-top: 30px;
+}
+
+td {
+	padding-top: 30px;
+	padding-left: 75px;
+}
+
+table {
+	width: 100%;
+	text-align: left;
+}
+
+.pic {
+	margin-top: 80px;
+	margin-left: -120px;
+	margin-right: -120px;
+}
+.eachpic {
+	border: 2px solid black;
+	width: 650px;
+	height: 750px;
+	text-align: center;
+	background-color: white;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 20px;
+
+}
+img {
+	text-decoration: none;
+	list-style: none;
+	position: absolute;
+	width: 90%;
+	height: 70%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -65%);
+}
+
+.txt {
+	font-size: 20px;
+	color: black;
+	font-family: lucida;
+	bottom: 20%;
+	text-align: center;
+	padding-bottom: 50px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 100%;
+}
+
+.pos {
+	font-size: 18px;
+	color: black;
+	font-family: lucida;
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+@media(max-width: 300px) {
+	td {
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+}
